@@ -78,13 +78,13 @@
 		4F3EE1E4231438D000004786 /* IPlugParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F78D90413B63BA50032E0F3 /* IPlugParameter.cpp */; };
 		4F3EE1E5231438D000004786 /* IPlugTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDAC0E6207D76C600299363 /* IPlugTimer.cpp */; };
 		4F3EE1E7231438D000004786 /* AUv3Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78BE0222E73D0800AD537E /* AUv3Framework.framework */; };
-		4F3EE1E9231438D000004786 /* AUv3Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78BE0222E73D0800AD537E /* AUv3Framework.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F3EE1E9231438D000004786 /* AUv3Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78BE0222E73D0800AD537E /* AUv3Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F3EE1EB231438D000004786 /* MOXplore.appex in Embed AUv3 App Extension */ = {isa = PBXBuildFile; fileRef = 4F3907602013EBA300DDA490 /* MOXplore.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4F3F6E472CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E492CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E4B2CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E4D2CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		4F3F6E4F2CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; };
+		4F3F6E4F2CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E512CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E532CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4F3F6E552CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F6E462CCBDFF700C41C6D /* IPlugWebView_mac.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -247,6 +247,43 @@
 		B885CBC52304AE7300D73128 /* IPlugProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F61A8202807B9003F2573 /* IPlugProcessor.cpp */; };
 		B8E22A0C220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E22A0A220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp */; };
 		B8E22A0D220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E22A0A220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp */; };
+		D072DC932D7220B4008342DD /* web in Resources */ = {isa = PBXBuildFile; fileRef = 4FC46E57231440B4000045E7 /* web */; };
+		D0D7B5032D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5042D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5052D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5062D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5072D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5082D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5092D7206830030E0B3 /* integer_linalg.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B4FD2D7206830030E0B3 /* integer_linalg.hpp */; };
+		D0D7B50A2D7206830030E0B3 /* libMTSMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B4FF2D7206830030E0B3 /* libMTSMaster.h */; };
+		D0D7B50B2D7206830030E0B3 /* pitchgrid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B5012D7206830030E0B3 /* pitchgrid.hpp */; };
+		D0D7B50C2D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B50D2D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B50E2D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B50F2D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5102D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5112D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5122D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5132D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5142D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5152D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5162D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5172D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5182D7206830030E0B3 /* integer_linalg.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B4FD2D7206830030E0B3 /* integer_linalg.hpp */; };
+		D0D7B5192D7206830030E0B3 /* libMTSMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B4FF2D7206830030E0B3 /* libMTSMaster.h */; };
+		D0D7B51A2D7206830030E0B3 /* pitchgrid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D0D7B5012D7206830030E0B3 /* pitchgrid.hpp */; };
+		D0D7B51B2D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B51C2D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B51D2D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B51E2D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B51F2D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5202D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5212D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5222D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5232D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
+		D0D7B5242D7206830030E0B3 /* integer_linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */; };
+		D0D7B5252D7206830030E0B3 /* libMTSMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */; };
+		D0D7B5262D7206830030E0B3 /* pitchgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -666,6 +703,12 @@
 		B8E22A0A220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugVST3_ProcessorBase.cpp; path = ../../../IPlug/VST3/IPlugVST3_ProcessorBase.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		B8E22A0B220268C4007CBF4C /* IPlugVST3_ProcessorBase.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugVST3_ProcessorBase.h; path = ../../../IPlug/VST3/IPlugVST3_ProcessorBase.h; sourceTree = "<group>"; tabWidth = 2; };
 		B8EA6B932203868500D23A86 /* IPlugVST3_Common.h */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = IPlugVST3_Common.h; path = ../../../IPlug/VST3/IPlugVST3_Common.h; sourceTree = "<group>"; tabWidth = 2; };
+		D0D7B4FD2D7206830030E0B3 /* integer_linalg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = integer_linalg.hpp; path = ../integer_linalg.hpp; sourceTree = SOURCE_ROOT; };
+		D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = integer_linalg.cpp; path = ../integer_linalg.cpp; sourceTree = SOURCE_ROOT; };
+		D0D7B4FF2D7206830030E0B3 /* libMTSMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libMTSMaster.h; path = ../libMTSMaster.h; sourceTree = SOURCE_ROOT; };
+		D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = libMTSMaster.cpp; path = ../libMTSMaster.cpp; sourceTree = SOURCE_ROOT; };
+		D0D7B5012D7206830030E0B3 /* pitchgrid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = pitchgrid.hpp; path = ../pitchgrid.hpp; sourceTree = SOURCE_ROOT; };
+		D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pitchgrid.cpp; path = ../pitchgrid.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -742,6 +785,12 @@
 		089C166AFE841209C02AAC07 /* IPlugExample */ = {
 			isa = PBXGroup;
 			children = (
+				D0D7B4FD2D7206830030E0B3 /* integer_linalg.hpp */,
+				D0D7B4FE2D7206830030E0B3 /* integer_linalg.cpp */,
+				D0D7B4FF2D7206830030E0B3 /* libMTSMaster.h */,
+				D0D7B5002D7206830030E0B3 /* libMTSMaster.cpp */,
+				D0D7B5012D7206830030E0B3 /* pitchgrid.hpp */,
+				D0D7B5022D7206830030E0B3 /* pitchgrid.cpp */,
 				52FBBED30D0CF143001C8B8A /* config.h */,
 				4F3862EE2014BBEC0009F402 /* MOXplore.h */,
 				4F3862ED2014BBEC0009F402 /* MOXplore.cpp */,
@@ -1425,6 +1474,9 @@
 				6FFBD2B62CEF58CF003D75F0 /* IPlugWKWebViewUIDelegate.h in Headers */,
 				6FFBD2B72CEF58CF003D75F0 /* IPlugWKWebViewScriptMessageHandler.h in Headers */,
 				4FA0FB17247D4D2B00E25C73 /* IPlugWebViewEditorDelegate.h in Headers */,
+				D0D7B5092D7206830030E0B3 /* integer_linalg.hpp in Headers */,
+				D0D7B50A2D7206830030E0B3 /* libMTSMaster.h in Headers */,
+				D0D7B50B2D7206830030E0B3 /* pitchgrid.hpp in Headers */,
 				4F78BE1222E73DD900AD537E /* AUv3Framework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1438,6 +1490,9 @@
 				4FC3EFF82086CE5700BD11FA /* optional.h in Headers */,
 				4FC3F0012086CE5700BD11FA /* uid.h in Headers */,
 				4FC3EFF22086CE5700BD11FA /* hostclasses.h in Headers */,
+				D0D7B5182D7206830030E0B3 /* integer_linalg.hpp in Headers */,
+				D0D7B5192D7206830030E0B3 /* libMTSMaster.h in Headers */,
+				D0D7B51A2D7206830030E0B3 /* pitchgrid.hpp in Headers */,
 				4FF3205820B2BFAB00269268 /* IPlugPaths.h in Headers */,
 				4FC3EFFE2086CE5700BD11FA /* processdata.h in Headers */,
 				4FC3F0002086CE5700BD11FA /* stringconvert.h in Headers */,
@@ -1473,9 +1528,9 @@
 			buildConfigurationList = 4F3907742013EBA400DDA490 /* Build configuration list for PBXNativeTarget "AUv3" */;
 			buildPhases = (
 				4F78BE3B22E74A7E00AD537E /* Run Script - Touch dummy file */,
+				4F39075E2013EBA300DDA490 /* Resources */,
 				4F39075C2013EBA300DDA490 /* Sources */,
 				4F39075D2013EBA300DDA490 /* Frameworks */,
-				4F39075E2013EBA300DDA490 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1646,14 +1701,14 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					4F20EEC8132C69FE0030E34C = {
 						DevelopmentTeam = 686EDA2T8T;
 					};
 					4F39075F2013EBA300DDA490 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 686EDA2T8T;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
@@ -1669,7 +1724,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					4F3EE1BA231438D000004786 = {
-						DevelopmentTeam = 686EDA2T8T;
 						ProvisioningStyle = Automatic;
 					};
 					4F78BE0122E73D0800AD537E = {
@@ -1769,6 +1823,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D072DC932D7220B4008342DD /* web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1917,7 +1972,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "python3 ../scripts/prepare_resources-mac.py";
+			shellScript = "python3 ../scripts/prepare_resources-mac.py\n";
 			showEnvVarsInLog = 0;
 		};
 		4FBCC1B21FD5AE8500EFE550 /* Run Script - prepare_resources-mac.py */ = {
@@ -1964,7 +2019,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "python3 ../scripts/prepare_resources-mac.py";
+			shellScript = "python3 ../scripts/prepare_resources-mac.py\n";
 			showEnvVarsInLog = 0;
 		};
 		4FBCC1B51FD5AED400EFE550 /* Run Script - prepare_resources-mac.py */ = {
@@ -2013,6 +2068,9 @@
 				4F78D9BB13B63BA50032E0F3 /* IPlugAPIBase.cpp in Sources */,
 				4F3F6E552CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */,
 				4F993F7223055C96000313AF /* IPlugProcessor.cpp in Sources */,
+				D0D7B5122D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5132D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5142D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F35DEAE207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
 				4F78D9C813B63BA50032E0F3 /* IPlugParameter.cpp in Sources */,
 				6FFBD2D12CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
@@ -2024,6 +2082,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F78BE3222E7429B00AD537E /* IPlugAUv3Appex.m in Sources */,
+				D0D7B5032D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5042D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5052D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				6FFBD2D52CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2038,6 +2099,9 @@
 				4F3F6E472CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */,
 				4FDAC0ED207D76C600299363 /* IPlugTimer.cpp in Sources */,
 				4F78D94513B63BA50032E0F3 /* IPlugAPIBase.cpp in Sources */,
+				D0D7B5212D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5222D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5232D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4FD52136202A5BD000A4D22A /* dfx-au-utilities.c in Sources */,
 				4F5F344420C0226200487201 /* IPlugPaths.mm in Sources */,
 				4F35DEB0207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
@@ -2070,6 +2134,9 @@
 				4F3EE1D6231438D000004786 /* IPlugAPP.cpp in Sources */,
 				4F3EE1D8231438D000004786 /* IPlugAPP_dialog.cpp in Sources */,
 				4F3EE1D9231438D000004786 /* RtAudio.cpp in Sources */,
+				D0D7B51E2D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B51F2D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5202D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F3EE1DB231438D000004786 /* IPlugAPP_main.cpp in Sources */,
 				4F3EE1DE231438D000004786 /* MOXplore.cpp in Sources */,
 				4F3EE1E0231438D000004786 /* IPlugAPIBase.cpp in Sources */,
@@ -2091,6 +2158,9 @@
 				4F78BE1522E7406D00AD537E /* MOXplore.cpp in Sources */,
 				4F78BE2222E7406D00AD537E /* IPlugAUAudioUnit.mm in Sources */,
 				4F78BE2322E7406D00AD537E /* IPlugAUv3.mm in Sources */,
+				D0D7B50C2D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B50D2D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B50E2D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F78BE2422E7406D00AD537E /* IPlugAUViewController.mm in Sources */,
 				4F78BE2522E7406D00AD537E /* IPlugPluginBase.cpp in Sources */,
 				4F78BE2622E7406D00AD537E /* IPlugAPIBase.cpp in Sources */,
@@ -2111,6 +2181,9 @@
 				4F81591F205D50EB00393585 /* pluginfactory.cpp in Sources */,
 				4F815973205D50EB00393585 /* vstinitiids.cpp in Sources */,
 				4F81597E205D50EB00393585 /* fdebug.cpp in Sources */,
+				D0D7B5062D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5072D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5082D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F9828B8140A9EB700F3FCC1 /* IPlugAPIBase.cpp in Sources */,
 				4F81597F205D50EB00393585 /* fdynlib.cpp in Sources */,
 				4F815919205D50EB00393585 /* memorystream.cpp in Sources */,
@@ -2159,6 +2232,9 @@
 				4FB6001A1567CB0A0020189A /* IPlugAPIBase.cpp in Sources */,
 				4F35DEB1207E5C5A00867D8F /* IPlugPluginBase.cpp in Sources */,
 				4F5F344520C0226200487201 /* IPlugPaths.mm in Sources */,
+				D0D7B50F2D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5102D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5112D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F1A5285205D914A00CF2908 /* IPlugAAX.cpp in Sources */,
 				4F0848292015129A00F9E881 /* IPlugAAX_Parameters.cpp in Sources */,
 				4F3862F32014BBEC0009F402 /* MOXplore.cpp in Sources */,
@@ -2173,6 +2249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC3EFF92086CE5700BD11FA /* parameterchanges.cpp in Sources */,
+				D0D7B51B2D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B51C2D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B51D2D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4FC3EFCE2086C35D00BD11FA /* IPlugPluginBase.cpp in Sources */,
 				4F722021225C1EB100FF0E7C /* commoniids.cpp in Sources */,
 				4F472103209B294400A0A0A8 /* IPlugVST3_Controller.cpp in Sources */,
@@ -2203,6 +2282,9 @@
 				4F1A5282205D913300CF2908 /* IPlugAPP.cpp in Sources */,
 				4F2EA978203A50EA008E4850 /* IPlugAPP_dialog.cpp in Sources */,
 				4FAFFE5821495A4800A6E72D /* RtAudio.cpp in Sources */,
+				D0D7B5242D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5252D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5262D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4F690C9B203A345100A4A13E /* IPlugAPP_main.cpp in Sources */,
 				4F3862EF2014BBEC0009F402 /* MOXplore.cpp in Sources */,
 				4F78D90B13B63BA50032E0F3 /* IPlugAPIBase.cpp in Sources */,
@@ -2224,6 +2306,9 @@
 				4FFBB90920863B0E00DDD0E7 /* vstinitiids.cpp in Sources */,
 				4F3F6E4D2CCBDFF700C41C6D /* IPlugWebView_mac.mm in Sources */,
 				4FFBB90A20863B0E00DDD0E7 /* fdebug.cpp in Sources */,
+				D0D7B5152D7206830030E0B3 /* integer_linalg.cpp in Sources */,
+				D0D7B5162D7206830030E0B3 /* libMTSMaster.cpp in Sources */,
+				D0D7B5172D7206830030E0B3 /* pitchgrid.cpp in Sources */,
 				4FFBB90C20863B0E00DDD0E7 /* IPlugAPIBase.cpp in Sources */,
 				B8E22A0D220268C4007CBF4C /* IPlugVST3_ProcessorBase.cpp in Sources */,
 				6FFBD2D42CEF5900003D75F0 /* IPlugWebViewEditorDelegate.mm in Sources */,
@@ -2319,6 +2404,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2328,6 +2414,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2336,10 +2423,12 @@
 				CODE_SIGN_IDENTITY = "-";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXECUTABLE_EXTENSION = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2384,7 +2473,6 @@
 				PRODUCT_NAME = "$(BINARY_NAME)";
 				SDKROOT = "$(BASE_SDK_MAC)";
 				SKIP_INSTALL = NO;
-				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "../build-mac";
 				WRAPPER_EXTENSION = "";
 			};
@@ -2398,6 +2486,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2407,6 +2496,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2414,10 +2504,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXECUTABLE_EXTENSION = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2472,6 +2564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST2_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -2491,6 +2584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST2_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -2510,6 +2604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST2_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -2539,10 +2634,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				EXECUTABLE_EXTENSION = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2553,7 +2651,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PitchGrid.app.MOXplore.AUv3;
@@ -2578,11 +2676,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_EXTENSION = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2593,7 +2694,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PitchGrid.app.MOXplore.AUv3;
@@ -2618,11 +2719,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_EXTENSION = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2633,7 +2737,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PitchGrid.app.MOXplore.AUv3;
@@ -2647,6 +2751,7 @@
 		4F3AE1DD12C0E5E2001FD7A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				DSTROOT = "$(AU_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2666,6 +2771,7 @@
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
 					$CA_SDK/AudioUnits/AUPublic/AUBase,
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = component;
@@ -2675,6 +2781,7 @@
 		4F3AE1DE12C0E5E2001FD7A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				DSTROOT = "$(AU_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2694,6 +2801,7 @@
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
 					$CA_SDK/AudioUnits/AUPublic/AUBase,
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = component;
@@ -2703,6 +2811,7 @@
 		4F3AE1DF12C0E5E2001FD7A4 /* Tracer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				DSTROOT = "$(AU_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2722,6 +2831,7 @@
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
 					$CA_SDK/AudioUnits/AUPublic/AUBase,
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = component;
@@ -2732,6 +2842,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2760,6 +2873,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2788,6 +2904,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2825,11 +2944,13 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2849,9 +2970,14 @@
 					"$(inherited)",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++17";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"$(GCC_CFLAGS)",
+				);
 				OTHER_LDFLAGS = (
 					"$(AUv3_FRAMEWORKS)",
 					"$(EXTRA_LNK_FLAGS)",
@@ -2881,10 +3007,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2906,9 +3034,14 @@
 					"$(inherited)",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++17";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"$(GCC_CFLAGS)",
+				);
 				OTHER_LDFLAGS = (
 					"$(AUv3_FRAMEWORKS)",
 					"$(EXTRA_LNK_FLAGS)",
@@ -2938,10 +3071,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -2963,9 +3098,14 @@
 					"$(inherited)",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 c++17";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"$(GCC_CFLAGS)",
+				);
 				OTHER_LDFLAGS = (
 					"$(AUv3_FRAMEWORKS)",
 					"$(EXTRA_LNK_FLAGS)",
@@ -2985,9 +3125,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = "$(DEBUG_OPTIMIZE)";
+				HEADER_SEARCH_PATHS = (
+					"$(EXTRA_INC_PATHS)",
+					"$(IPLUG_INC_PATHS)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				PRODUCT_NAME = "All macOS";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -2995,8 +3142,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				HEADER_SEARCH_PATHS = (
+					"$(EXTRA_INC_PATHS)",
+					"$(IPLUG_INC_PATHS)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				PRODUCT_NAME = "All macOS";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -3004,7 +3158,14 @@
 		4F78DAF413B643610032E0F3 /* Tracer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(EXTRA_INC_PATHS)",
+					"$(IPLUG_INC_PATHS)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				PRODUCT_NAME = "All macOS";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 			};
 			name = Tracer;
 		};
@@ -3013,6 +3174,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEAD_CODE_STRIPPING = YES;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3024,6 +3186,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(VST3_SDK)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				INFOPLIST_FILE = "../resources/MOXplore-VST3-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.vst3.${BINARY_NAME}";
@@ -3037,6 +3200,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEAD_CODE_STRIPPING = YES;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3048,6 +3212,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(VST3_SDK)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				INFOPLIST_FILE = "../resources/MOXplore-VST3-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.vst3.${BINARY_NAME}";
@@ -3061,6 +3226,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEAD_CODE_STRIPPING = YES;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3072,6 +3238,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(VST3_SDK)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
 				);
 				INFOPLIST_FILE = "../resources/MOXplore-VST3-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.vst3.${BINARY_NAME}";
@@ -3089,6 +3256,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = NO;
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(AAX_PATH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3150,6 +3318,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = NO;
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = NO;
@@ -3221,6 +3390,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = NO;
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
 				DEPLOYMENT_POSTPROCESSING = NO;
@@ -3294,6 +3464,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = "";
@@ -3329,6 +3500,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = "";
@@ -3363,6 +3535,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = "";
@@ -3387,6 +3560,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3394,7 +3571,10 @@
 					"$(APP_DEFS)",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				INFOPLIST_FILE = "../resources/MOXplore-macOS-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3405,6 +3585,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.app.${BINARY_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3414,6 +3595,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3421,7 +3606,10 @@
 					"$(APP_DEFS)",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				INFOPLIST_FILE = "../resources/MOXplore-macOS-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3432,6 +3620,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.app.${BINARY_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3441,6 +3630,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MOXplore-macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = LYMCTRRY76;
 				DSTROOT = "$(APP_PATH)";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3448,7 +3641,10 @@
 					"$(APP_DEFS)",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/eigen/3.4.0_1/include/eigen3,
+				);
 				INFOPLIST_FILE = "../resources/MOXplore-macOS-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3459,6 +3655,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PitchGrid.app.${BINARY_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3468,6 +3665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -3490,6 +3688,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -3512,6 +3711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DSTROOT = "$(VST3_PATH)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(EXTRA_PLUGIN_DEFS)",
@@ -3538,6 +3738,7 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -3547,6 +3748,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3554,9 +3756,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXECUTABLE_EXTENSION = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;

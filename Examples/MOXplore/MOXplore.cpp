@@ -35,7 +35,12 @@ MOXplore::MOXplore(const InstanceInfo& info)
   // #endif
 
   mEditorInitFunc = [&]() {
-    LoadIndexHtml(__FILE__, GetBundleID());
+    //std::cout << "__FILE__" << __FILE__ << '\n';
+    //std::cout << "GetBundleID()" << GetBundleID() << '\n';
+    //LoadIndexHtml(__FILE__, GetBundleID());
+        
+    LoadFile("index.html", GetBundleID());
+    
     //LoadURL("http://localhost:5173/");
     EnableScroll(false);
   };

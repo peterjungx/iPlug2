@@ -21,7 +21,8 @@
             "name": "Mac",
             "includePath": [
                 "${commonIncludePaths}",
-                "${workspaceFolder}/../../Dependencies/Build/mac/include/**"
+                "${workspaceFolder}/../../Dependencies/Build/mac/include/**",
+                "/opt/homebrew/Cellar/eigen/3.4.0_1/include/**"
             ],
             "defines": [
                 "${commonDefs}",
